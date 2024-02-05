@@ -2,7 +2,6 @@ numbers = list()
 while True:
     inp = input("Please enter a number: ")
     if inp == "done":
-        inp.isupper()
         break
     try:
         value = int(inp)
